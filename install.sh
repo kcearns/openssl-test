@@ -38,5 +38,5 @@ make install
 ldd /root/src/libexec/git-core/git-remote-https #verify shared libraries
 
 # Handy commands
-# echo | /root/src/ssl/bin/openssl s_client -connect bitbucket.org:443 | grep Protocol
+# echo | /root/src/bin/openssl s_client -connect bitbucket.org:443 | grep Protocol
 # GIT_CURL_VERBOSE=1 /root/src/bin/git ls-remote https://bitbucket.org/
